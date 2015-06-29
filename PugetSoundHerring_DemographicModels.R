@@ -10,7 +10,6 @@
 # Material, Appendix 3.
 ## ============================================================================
 
-wd <- "/Users/mcsiple/Dropbox/Herring Data_3/Demographic models"
 setwd(wd)
 
 require(MARSS)
