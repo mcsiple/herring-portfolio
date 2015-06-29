@@ -2,6 +2,7 @@
 Multivariate autoregressive state-space (MARSS) models for population structure, correlations between subpopulations, and portfolio effects in Puget Sound Pacific herring.
 
 This folder contains two files with code:
+
 1) The model structures that we fit for the first part of the paper. 
 The data used to fit the model are from WDFW surveys of egg biomass. They are available from the WDFW from their most recent stock status report: http://wdfw.wa.gov/publications/01628/
 
