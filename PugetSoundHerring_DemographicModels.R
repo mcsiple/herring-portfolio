@@ -3,6 +3,11 @@
 # MARSS models for testing population structure within Puget Sound Pacific herring
 # Megsie Siple
 # Last edit: 6/29/15
+# This file contains all the models we compared to find out which population structure
+# best describes the biomass dynamics for Puget Sound Pacific herring. 
+# We used AICbp values to compare model fits. Model descriptions are in Table 1 of the
+# manuscript, and detailed desciptions of all the matrices are in Electronic Supplementary
+# Material, Appendix 3.
 ## ============================================================================
 
 wd <- "/Users/mcsiple/Dropbox/Herring Data_3/Demographic models"
