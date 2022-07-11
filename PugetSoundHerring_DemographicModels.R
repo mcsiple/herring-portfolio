@@ -51,7 +51,8 @@ plot(eggs[,1],eggs[,3],
 # -------------------------------------------------------------------------
 # Model 1: Pops have same trend and the same process variance -------------
 # -------------------------------------------------------------------------
-
+model.h1 <- list()
+      
 model.h1$Q="diagonal and equal"   
 model.h1$R="diagonal and equal"
 model.h1$Z= "identity"      #This means Z is a n x n identity matrix and m = n.
@@ -217,6 +218,8 @@ model.h8$A="scaling"
 model.h8$U="unequal"    
 
 kem.h8 = MARSS(teggs, model=model.h8,control=list(maxit=500,allow.degen=FALSE)) 
+
+summary(kem.h8) #add for TBF
 
 #kemh8.with.AICb = MARSSaic(kem.h8, output = "AICbp",
 #                          Options = list(nboot = 100, silent=FALSE))
