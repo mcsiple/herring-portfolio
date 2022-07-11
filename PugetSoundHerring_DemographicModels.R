@@ -219,7 +219,9 @@ model.h8$U="unequal"
 
 kem.h8 = MARSS(teggs, model=model.h8,control=list(maxit=500,allow.degen=FALSE)) 
 
-summary(kem.h8) #add for TBF
+# For TBF:
+summary(kem.h8)
+MARSSparamCIs(kem.h8) 
 
 #kemh8.with.AICb = MARSSaic(kem.h8, output = "AICbp",
 #                          Options = list(nboot = 100, silent=FALSE))
